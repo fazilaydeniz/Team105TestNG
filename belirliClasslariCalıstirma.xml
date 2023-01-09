@@ -2,14 +2,13 @@
 
 <suite name="Classlari calistirma">
 
-        <test name="İstenen classlari calistirma">
+        <test name="Istenen class'lari calistirma">
 
-        <classes>
-        <class name="tests.day15_SoftAssert.C01_SoftAssert"></class>
-        <class name="tests.day16_SmokeTests.C01_PozitifLoginTest"></class>
-        <class name="tests.day14_testNGFramework.C02_DependsOnMethods"></class>
-        </classes>
-
+                <classes>
+                        <class name="tests.day15_SoftAssert.C01_SoftAssert"></class>
+                        <class name="tests.day16_SmokeTests.C03_SwitchingWindows"></class>
+                        <class name="tests.day14_testNGFramework.C03_NutellaTesti"></class>
+                </classes>
         </test>
-        </suite>
+</suite>
 
