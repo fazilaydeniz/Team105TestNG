@@ -20,7 +20,7 @@ public class C10_US38TC01 {
         Actions action=new Actions(Driver.getDriver());
         qualitydemyPage.categoriesDropDown.click();
         action.moveToElement(qualitydemyPage.enlishCourseSekmesi).click(qualitydemyPage.enlishCourseSekmesi).perform();
-        qualitydemyPage.englishCourseLearnToSpeakLinki.click();
+        qualitydemyPage.englishCourseLearnToSpeakDersiLinki.click();
         qualitydemyPage.comparebutonu.click();
         Assert.assertTrue(qualitydemyPage.homeCourseCompareYazisi.isDisplayed());
 

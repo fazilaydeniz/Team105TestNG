@@ -44,6 +44,9 @@ public class QualitydemyPage {
     @FindBy(xpath = "//input[@size='43']")
     public WebElement metaKeywordsTextbox;
 
+    @FindBy (xpath = "//textarea[@name='meta_description']")
+    public WebElement metaDescriptionTextbox;
+
     @FindBy(xpath = "//span[text()='Categories']")
     public WebElement categoriesDropDown;
 
@@ -51,7 +54,7 @@ public class QualitydemyPage {
     public WebElement enlishCourseSekmesi;
 
     @FindBy (xpath = "(//a[@class='course-title'])[1]")
-    public WebElement englishCourseLearnToSpeakLinki;
+    public WebElement englishCourseLearnToSpeakDersiLinki;
 
     @FindBy (xpath = " //i[@class='fas fa-balance-scale']")
     public WebElement comparebutonu;
@@ -69,7 +72,7 @@ public class QualitydemyPage {
     public WebElement webDesignCourseSekmesi;
 
     @FindBy(xpath = "(//a[@class='course-title'])[2]")
-    public WebElement reactAndTypeScriptLinki;
+    public WebElement reactAndTypeScriptDersiLinki;
 
 
 

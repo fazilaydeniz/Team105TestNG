@@ -25,9 +25,9 @@ public class C10_US38TC02 {
         action.moveToElement(qualitydemyPage.webDesignCourseSekmesi).click(qualitydemyPage.webDesignCourseSekmesi).perform();
         ReusableMethods.bekle(2);
         action.sendKeys(Keys.PAGE_DOWN);
-        action.scrollToElement(qualitydemyPage.reactAndTypeScriptLinki);
+        action.scrollToElement(qualitydemyPage.reactAndTypeScriptDersiLinki);
         ReusableMethods.bekle(1);
-        qualitydemyPage.reactAndTypeScriptLinki.click();
+        qualitydemyPage.reactAndTypeScriptDersiLinki.click();
         qualitydemyPage.buyNowButonu.click();
         Assert.assertTrue(qualitydemyPage.homeShoppingCartYazisi.isDisplayed());
 
